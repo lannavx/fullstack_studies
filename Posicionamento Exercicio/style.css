@@ -1,0 +1,50 @@
+body {
+  font-size: 16px;
+  font-family: Arial;
+  background-color: #f7f7f7;
+}
+
+.imagem {
+  text-align: center;
+  margin: 60px;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  margin: 50px;
+}
+
+.titulo a {
+  padding: 10px;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.inicio {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: center;
+}
+
+.bicicleta {
+  width: 30%;
+}
+
+.meio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 64px;
+  color: #c6c6c6;
+}
