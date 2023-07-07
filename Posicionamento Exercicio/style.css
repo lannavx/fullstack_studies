@@ -1,24 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
   font-size: 16px;
   font-family: Arial;
   background-color: #f7f7f7;
+  align-items: center;
+  width: 100%;
+  gap: 60px;
 }
 
-.imagem {
+.head {
+  display: grid;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.bikcraft {
   text-align: center;
-  margin: 60px;
 }
 
-.titulo {
+.links {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 40px;
-  margin: 50px;
+  gap: 20px;
 }
 
-.titulo a {
-  padding: 10px;
+.links a {
+  padding: 15px 30px;
   background-color: white;
 }
 
@@ -28,23 +42,78 @@ a {
 }
 
 .inicio {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
+  align-items: center;
+  width: 1000px;
 }
 
 .bicicleta {
-  width: 30%;
+  width: 100%;
 }
 
-.meio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.vantagens {
+  display: grid;
+  grid-template-columns: 50px 350px;
+  background-color: white;
+  padding: 40px;
+  gap: 20px;
 }
 
-h1 {
+h2 {
   font-size: 64px;
   color: #c6c6c6;
+  text-align: right;
+  padding: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.botao {
+  color: white;
+  font-weight: 600;
+  background-color: #ee2211;
+  padding: 15px 25px;
+  width: fit-content;
+  height: fit-content;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: right;
+  padding: 40px;
+  height: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.textos-vantagens {
+  display: grid;
+  gap: 10px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.linha {
+  background-color: #ee2211;
+  height: 04px;
+  width: 60px;
+  position: absolute;
+  right: -30px;
+  top: 30px;
 }
