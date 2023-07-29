@@ -9,46 +9,61 @@
 </head>
 
 <body>
-  <div class="head">
-    <div class="bikcraft">
-      <img src="/img/bikcraft.svg" alt="Bikecraft">
-    </div>
-    <div class="links">
-      <a href="./">SOBRE</a>
-      <a href="./">PRODUTOS</a>
-      <a href="./">LOJAS</a>
-      <a href="./">CONTATO</a>
-    </div>
-  </div>
-  <div class="inicio">
-    <div class="textos">
-      <div class="linha">
-      </div>
+
+  <header>
+    <img src="/img/bikcraft.svg" alt="Bikecraft">
+    <nav aria-label="navegacao">
+      <ul>
+        <li><a href="/">SOBRE</a></li>
+        <li><a href="/">PRODUTOS</a></li>
+        <li><a href="/">LOJAS</a></li>
+        <li><a href="/">CONTATO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-label="inicio">
       <h1>Bicicletas Feitas a Mão</h1>
       <p>A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da marca.</p>
       <a class="botao" href="./">VER MAIS</a>
-    </div>
-    <img class="bicicleta" src="/img/bicicleta.jpg">
+    </section>
+    <img src="/img/bicicleta.jpg">
+
     <h2>VANTAGENS BIKCRAFT</h2>
-    <div class="vantagens">
-      <img src="/img/eletrica.svg">
-      <div class="textos-vantagens">
-        <h3>Motor Elétrico</h3>
-        <p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
-      </div>
-      <img src="/img/velocidade.svg">
-      <div class="textos-vantagens">
-        <h3>40 km/h</h3>
-        <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
-      </div>
-      <img src="/img/rastreador.svg">
-      <div class="textos-vantagens">
-        <h3>Rastreador</h3>
-        <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
-      </div>
-    </div>
-  </div>
-  <p class="copyright">Bikcraft. Alguns Direitos Reservados</p>
+    <article aria-label="vantagens">
+      <ul class="lista1">
+        <li>
+          <img src="/img/eletrica.svg">
+          <div>
+            <h3>Motor Elétrico</h3>
+            <p>Permite você viajar distâncias inimaginaveis com a sua bike.</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="/img/velocidade.svg">
+          <div>
+            <h3>40 km/h</h3>
+            <p>A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
+          </div>
+        </li>
+
+        <li>
+          <img src="/img/rastreador.svg">
+          <div>
+            <h3>Rastreador</h3>
+            <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
+          </div>
+        </li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <p>Bikcraft. Alguns Direitos Reservados</p>
+  </footer>
+
 </body>
 
 </html>

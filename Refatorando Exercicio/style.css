@@ -6,114 +6,123 @@
 body {
   display: flex;
   flex-direction: column;
-  font-size: 16px;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f7f7f7;
   align-items: center;
-  width: 100%;
-  gap: 60px;
+  gap: 3.75rem;
 }
 
-.head {
-  display: grid;
-  gap: 50px;
-  margin-top: 60px;
+img {
+  max-width: 100%;
+  display: block;
+  place-self: center;
 }
 
-.bikcraft {
-  text-align: center;
-}
-
-.links {
+ul {
+  list-style: none;
+  padding: 0rem;
+  margin: 0rem;
+  gap: 1.3rem;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.links a {
-  padding: 15px 30px;
-  background-color: white;
+header {
+  display: grid;
+  gap: 3.152rem;
+  margin-top: 3.75rem;
 }
 
-a {
+nav a {
+  display: flex;
   text-decoration: none;
+  background-color: white;
   color: black;
+  padding: 1.25rem 1.875rem;
 }
 
-.inicio {
+nav a:hover {
+  border: 0.125rem solid red;
+  border-radius: 0.3rem;
+}
+
+main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
-  align-items: center;
-  width: 1000px;
+  max-width: 62.5rem;
 }
 
-.bicicleta {
-  width: 100%;
-}
-
-.vantagens {
+section {
   display: grid;
-  grid-template-columns: 50px 350px;
   background-color: white;
-  padding: 40px;
-  gap: 20px;
+  text-align: right;
+  padding: 1.25rem 2.5rem;
 }
 
-h2 {
-  font-size: 64px;
-  color: #c6c6c6;
-  text-align: right;
-  padding: 40px;
+section::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background: red;
+  right: 920px;
+  top: 290px;
+}
+
+section a:hover {
+  background: #900;
+}
+
+article {
+  display: grid;
+  justify-self: right;
+  background-color: white;
+  padding: 2.5rem;
+}
+
+.lista1 li {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1.25rem 1.875rem;
+  gap: 1.25rem;
+}
+
+.lista1 li:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+article li:hover {
+  border-left: 0.25rem solid #900;
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #c6c6c6;
+  text-align: right;
+  place-self: center;
+  padding: 3rem;
+  background-image: url("./img/onda.svg");
 }
 
 .botao {
   color: white;
-  font-weight: 600;
+  text-decoration: none;
   background-color: #ee2211;
-  padding: 15px 25px;
+  padding: 1.25rem 1.875rem;
   width: fit-content;
-  height: fit-content;
-  align-self: flex-end;
-  border-radius: 5px;
+  border-radius: 0.3rem;
+  place-self: end;
 }
 
-.textos {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  text-align: right;
-  padding: 40px;
-  height: 100%;
-  box-sizing: border-box;
-  justify-content: center;
-  gap: 20px;
-  position: relative;
-}
-
-.textos-vantagens {
-  display: grid;
-  gap: 10px;
-}
-
-.copyright {
+footer {
   text-align: center;
   background-color: white;
-  padding: 40px;
+  padding: 3.125rem;
   width: 100%;
   box-sizing: border-box;
-}
-
-.linha {
-  background-color: #ee2211;
-  height: 04px;
-  width: 60px;
-  position: absolute;
-  right: -30px;
-  top: 30px;
 }
