@@ -1,129 +1,185 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  display: flex;
-  flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
   background-color: #f7f7f7;
-  align-items: center;
-  gap: 3.75rem;
 }
 
 img {
   max-width: 100%;
   display: block;
-  place-self: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
+  margin: 0px;
+  padding: 0px;
   list-style: none;
-  padding: 0rem;
-  margin: 0rem;
-  gap: 1.3rem;
-  display: flex;
-  flex-wrap: wrap;
 }
 
-header {
-  display: grid;
-  gap: 3.152rem;
-  margin-top: 3.75rem;
-}
-
-nav a {
-  display: flex;
-  text-decoration: none;
-  background-color: white;
-  color: black;
-  padding: 1.25rem 1.875rem;
-  border: 0.125rem solid transparent;
-}
-
-nav a:hover {
-  border: 0.125rem solid red;
-  border-radius: 0.3rem;
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  max-width: 62.5rem;
-}
-
-section {
-  display: grid;
-  background-color: white;
-  text-align: right;
-  padding: 1.25rem 2.5rem;
-}
-
-section::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 60px;
-  height: 4px;
-  background: red;
-  right: 920px;
-  top: 290px;
-}
-
-section a:hover {
-  background: #900;
-}
-
-article {
-  display: grid;
-  justify-self: right;
-  background-color: white;
-  padding: 2.5rem;
-}
-
-.lista1 li {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 1.25rem 1.875rem;
-  gap: 1.25rem;
-}
-
-.lista1 li:nth-child(odd) {
-  background: #f7f7f7;
-}
-
-article li:hover {
-  border-left: 0.25rem solid #900;
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
 }
 
 p {
   font-size: 1.25rem;
+  line-height: 1.3;
 }
 
-h2 {
-  font-size: 4rem;
-  color: #c6c6c6;
+.header {
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu a {
+  display: block;
+  background: #ffffff;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  color: #000000;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+}
+
+.menu a:hover {
+  border-color: #e21;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+
+.introducao {
+  background: #fff;
+  padding: 40px;
   text-align: right;
-  place-self: center;
-  padding: 3rem;
-  background-image: url("./img/onda.svg");
+  position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
+}
+
+.introducao h1 {
+  font-size: 2rem;
+}
+
+.introducao::before {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  position: absolute;
+  top: 30px;
+  right: -30px;
 }
 
 .botao {
-  color: white;
-  text-decoration: none;
-  background-color: #ee2211;
-  padding: 1.25rem 1.875rem;
-  width: fit-content;
-  border-radius: 0.3rem;
-  place-self: end;
+  background: #e21;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-transform: uppercase;
 }
 
-footer {
-  text-align: center;
-  background-color: white;
-  padding: 3.125rem;
+.botao:hover {
+  background: #900;
+}
+
+.subtitulo {
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+  background-image: url("./img/onda.svg");
+  word-break: normal;
+}
+
+.vantagens {
+  background: #fff;
+  padding: 40px;
+}
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+  border-left: 4px solid transparent;
+  margin: auto;
+}
+
+.vantagens-item:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+.vantagens-item:hover {
+  border-color: #e21;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.rodape {
+  background: #fff;
   width: 100%;
+  text-align: center;
+  padding: 40px;
   box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  .conteudo-vantagem {
+    grid-template-columns: 1fr;
+  }
+  .subtitulo {
+    text-align: center;
+  }
+}
+
+.introducao-cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
+  .header {
+    gap: 30px;
+  }
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+  .introducao {
+    text-align: left;
+    justify-items: start;
+  }
+  .introducao::before {
+    display: none;
+  }
 }
