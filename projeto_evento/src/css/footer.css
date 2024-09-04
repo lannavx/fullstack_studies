@@ -1,0 +1,10 @@
+.footer-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    align-items:flex-end;
+    background-color: rgba(40, 40, 40, 0.317);
+    margin-top: 5rem;
+}

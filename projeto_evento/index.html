@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventLab</title>
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/header.css">
+    <link rel="stylesheet" href="/src/css/carrossel.css">
+    <link rel="stylesheet" href="/src/css/eventos.css">
+    <link rel="stylesheet" href="/src/css/formulario.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+
+    <script src="/src/js/script.js"></script>
+</head>
+<body>
+
+<!-- Barra Superior -->
+<header class="header-container">
+    <h1 class="header-titulo">EventLab</h1>
+    <nav class="nav-menu">
+        <ul class="nav-lista">
+            <li class="nav-item">
+                <a href="#listaProximosEventos">
+                    Eventos
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#formularioInformacao">
+                    Newsletter
+                </a>
+            </li>
+        </ul>   
+    </nav>
+</header>
+<main>
+    <!-- Carrossel -->
+    <section id="carrossel">
+        <div class="setas-carrossel">
+            <p id="setaEsquerda"> < </p>
+            <p id="setaDireita"> > </p>
+        </div>
+        <div class="imagens-carrossel">
+            <img id="imagemCarrossel1" src="/src/img/show.jpg" alt="show">
+            <img id="imagemCarrossel2" src="/src/img/billie.jpg" alt="billie">  
+            <img id="imagemCarrossel3" src="/src/img/palco.jpg" alt="palco">      
+        </div>
+    </section>
+    <!-- Lista com proximos eventos -->
+    <section id="listaProximosEventos" >
+        <h1 class="titulo-eventos">
+            Próximos Eventos
+        </h1>
+        <div class="artigos-eventos">
+            <article class="evento-container">
+                <div class="informacoes-evento">
+                    <h1 class="titulo-evento">
+                        Hit Me Hard and Soft: Tour
+                    </h1>
+                    <h2 class="artista-evento">
+                        Billie Eilish
+                    </h2>
+                </div>
+                <img src="/src/img/billie_elish_cantando.jpg" alt="billie elish cantando" >
+            </article>
+            <article class="evento-container">
+                <div class="informacoes-evento">
+                    <h1 class="titulo-evento">
+                        Baile Funk Experience Tour
+                    </h1>
+                    <h2 class="artista-evento">
+                        Anitta
+                    </h2>
+                </div>
+                <img src="/src/img/foto_anitta.jpeg" alt="anitta" >
+            </article>
+            <article class="evento-container">
+                <div class="informacoes-evento">
+                    <h1 class="titulo-evento">
+                        Short n’ Sweet Tour
+                    </h1>
+                    <h2 class="artista-evento">
+                        Sabrina Carpenter
+                    </h2>
+                </div>
+                <img src="/src/img/Sabrina-Carpenter-1.jpg" alt="sabrina cantando" >
+            </article>
+            <article class="evento-container">
+                <div class="informacoes-evento">
+                    <h1 class="titulo-evento">
+                        Rockstar's Tour
+                    </h1>
+                    <h2 class="artista-evento">
+                        Lisa
+                    </h2>
+                </div>
+                <img src="/src/img/lisa-blackpink.jpg" alt="lisa blackpink" >
+            </article>
+        </div>
+    </section>
+    <!-- Formulário de Informação  -->
+    <section id="formularioInformacao" >
+        <div class="titulos-formulario">
+            <h1 class="titulo-formulario">
+                Newsletter
+            </h1>
+            <p class="subtitulo-formulario">
+                Se inscreva para receber informações dos próximos eventos!
+            </p>
+        </div>
+        <form id="formularioNewsletter" action="" method="post">
+            <div class="grupo-campo">
+                <label class="label-campo" for="nomeFormulario">
+                    Nome
+                </label>
+                <input class="input-campo" type="text" id="nomeFormulario" name="nomeFormulario">
+            </div>
+            <div class="grupo-campo">
+                <label class="label-campo" for="emailFormulario">
+                    E-mail
+                </label>
+                <input class="input-campo" type="email" id="emailFormulario" name="emailFormulario">
+            </div>
+            <div class="grupo-campo">
+                <label class="label-campo" for="textoFormulario">
+                    Qual próximo evento você gostaria de ver?
+                </label>
+                <textarea class="input-campo" id="textoFormulario" name="textoFormulario"> </textarea>
+            </div>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </section>
+</main>
+<!-- Rodapé com redes sociais e links importantes -->
+<footer class="footer-container">
+    <nav class="nav-menu">
+        <ul class="nav-lista">
+            <li class="nav-item">
+                <a href="#">
+                    Instagram                        
+                </a>
+                
+            </li>
+            <li class="nav-item">
+                <a href="#">
+                    Tiktok                        
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#">
+                    Twitter                        
+                </a>
+            </li>
+        </ul>
+    </nav>
+</footer>
+
+
+</body>
+</html>

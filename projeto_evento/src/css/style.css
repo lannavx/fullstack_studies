@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color:  white;
+    font-family: Verdana;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+a {
+    color: aliceblue !important;
+}
