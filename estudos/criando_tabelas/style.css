@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 700px;
+    border-collapse: collapse;  /* tira o espaço entre a tabela */
+    position: relative;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+thead, tfoot {
+    background-color: #DEBA62;
+}
+
+/* cabeçalho fixo */
+thead {
+    position: sticky;
+    top: -1px;
+}
+
+td.vencedor_dado {
+    text-align: center;
+}
+
+/* 
+efeito zebrado
+2n = de duas em duas 
+*/
+tbody > tr:nth-child(2n) {
+    background-color: #F2E5BD
+}
