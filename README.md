@@ -10,13 +10,20 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 - Desenvolver projetos de portfólio que mostrem habilidades adquiridas.
 - Compartilhar soluções e boas práticas em HTML, CSS e JavaScript.
 
-
 ## Estrutura do Repositório
 
 - `/estudos/` - Contém exercícios práticos e materiais de estudo para o desenvolvimento de habilidades em front-end.
 - `/projeto_evento/` - Primeiro projeto, focado em evento, utilizando HTML, CSS e JavaScript.
-- `/projeto_[nome]/` - Cada novo projeto será criado em uma pasta nomeada com o padrão `projeto_[tema]`, contendo os arquivos e o código referente ao projeto específico.
+- `/projeto_cordel/` - Projeto sobre cordel, explorando elementos gráficos e animações.
+- `/projeto_redes_sociais/` - Projeto focado em redes sociais, desenvolvendo interatividade.
 
+## Visualizar Projetos
+
+Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo:
+
+1. [Projeto Evento](https://lannavx.github.io/front_end_studies/projeto_evento)
+2. [Projeto Cordel](https://lannavx.github.io/front_end_studies/projeto_cordel)
+3. [Projeto Redes Sociais](https://lannavx.github.io/front_end_studies/projeto_redes_sociais)
 
 ## Como Contribuir
 
