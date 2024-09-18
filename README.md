@@ -21,9 +21,9 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 
 Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo:
 
-1. [Projeto Evento](https://lannavx.github.io/front_end_studies/projeto_evento)
-2. [Projeto Cordel](https://lannavx.github.io/front_end_studies/projeto_cordel)
-3. [Projeto Redes Sociais](https://lannavx.github.io/front_end_studies/projeto_redes_sociais)
+1. <a href="https://lannavx.github.io/front_end_studies/projeto_evento" target="_blank">Projeto Evento</a>
+2. <a href="https://lannavx.github.io/front_end_studies/projeto_cordel" target="_blank">Projeto Cordel</a>
+3. <a href="https://lannavx.github.io/front_end_studies/projeto_redes_sociais" target="_blank">Projeto Redes Sociais</a>
 
 ## Como Contribuir
 
