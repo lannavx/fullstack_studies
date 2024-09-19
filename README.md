@@ -16,6 +16,7 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 - `/projeto_evento/` - Primeiro projeto, focado em evento, utilizando HTML, CSS e JavaScript.
 - `/projeto_cordel/` - Projeto sobre cordel, explorando elementos gráficos e animações.
 - `/projeto_redes_sociais/` - Projeto focado em redes sociais, desenvolvendo interatividade.
+- `/projeto_login/` - Projeto de página de login simples 
 
 ## Visualizar Projetos
 
