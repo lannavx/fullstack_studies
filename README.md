@@ -16,7 +16,8 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 - `/projeto_evento/` - Primeiro projeto, focado em evento, utilizando HTML, CSS e JavaScript.
 - `/projeto_cordel/` - Projeto sobre cordel, explorando elementos gráficos e animações.
 - `/projeto_redes_sociais/` - Projeto focado em redes sociais, desenvolvendo interatividade.
-- `/projeto_login/` - Projeto de página de login simples 
+- `/projeto_login/` - Projeto de página de login simples.
+- `/projeto_flexblog/` - Projeto de blog focado na utilização de Flexbox para criar layouts responsivos e flexíveis.
 
 ## Visualizar Projetos
 
@@ -26,6 +27,7 @@ Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo
 2. [Projeto Cordel](https://lannavx.github.io/front_end_studies/projeto_cordel)
 3. [Projeto Redes Sociais](https://lannavx.github.io/front_end_studies/projeto_redes_sociais)
 4. [Projeto Login](https://lannavx.github.io/front_end_studies/projeto_login)
+5. [Projeto Flexblog](https://lannavx.github.io/front_end_studies/projeto_flexblog)
 
 ## Como Contribuir
 
