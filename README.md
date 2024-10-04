@@ -19,6 +19,7 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 - `/projeto_login/` - Projeto de página de login simples.
 - `/projeto_flexblog/` - Projeto de blog focado na utilização de Flexbox para criar layouts responsivos e flexíveis.
 - `/projeto_wildbeast/` - Projeto focado na utilização de Grid Layout para criação de um layout interativo
+- `/projeto_tabela_imc/` -  Projeto interativo desenvolvido com HTML, CSS e JavaScript que permite aos usuários calcular e visualizar seu Índice de Massa Corporal (IMC).
 
 ## Visualizar Projetos
 
@@ -30,6 +31,7 @@ Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo
 4. [Projeto Login](https://lannavx.github.io/front_end_studies/projeto_login)
 5. [Projeto Flexblog](https://lannavx.github.io/front_end_studies/projeto_flexblog)
 6. [Projeto Wildbeast](https://lannavx.github.io/front_end_studies/projeto_wildbeast)
+7. [Projeto IMC](https://lannavx.github.io/front_end_studies/projeto_tabela_imc)
 
 ## Como Contribuir
 
