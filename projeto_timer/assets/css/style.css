@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+  --primary-color: #734432;
+  --primary-color-darker: #402318;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 350px;
+  margin: 50px auto;
+  background: #ffffffbe;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+}
+
+.botoes button {
+  border: none;
+  background: var(--primary-color);
+  color: #ffffffea;
+  font-size: 1em;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
+  transition: 0.2s ease; 
+}
+
+.botoes button:hover {
+  background: var(--primary-color-darker);
+}
+
+.relogio {
+  font-size: 2.5em;
+  font-family: "Oswald", sans-serif;
+}
+
+.pausado {
+  color: rgb(213, 14, 14);
+}
