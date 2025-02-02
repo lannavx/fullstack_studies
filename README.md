@@ -23,6 +23,7 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 - `/projeto_timer/` - Um projeto interativo de cronômetro desenvolvido com HTML, CSS e JavaScript. Permite ao usuário iniciar, pausar e zerar o cronômetro em uma interface dinâmica e intuitiva.
 - `/projeto_lista_tarefas/` - Projeto interativo de lista de tarefas. Permite ao usuário adicionar, remover e salvar tarefas no navegador utilizando o localStorage, garantindo que as tarefas fiquem disponíveis mesmo após o fechamento do navegador.
 - `/projeto_calculadora/` - Projeto interativo de calculadora que permite aos usuários realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão, exibindo os resultados em tempo real no display.
+- `/projeto_button_creator/` - Projeto interativo que permite aos usuários criar botões personalizados e que mostra as mudanças no botão em tempo real e exibe o código CSS gerado automaticamente para ser copiado e reutilizado.
 
 ## Visualizar Projetos
 
@@ -38,6 +39,7 @@ Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo
 8. [Projeto Timer](https://lannavx.github.io/front_end_studies/projeto_timer)
 9. [Lista de Tarefas](https://lannavx.github.io/front_end_studies/projeto_lista_tarefas)
 10. [Calculadora](https://lannavx.github.io/front_end_studies/projeto_calculadora)
+11. [Button Creator](https://lannavx.github.io/front_end_studies/projeto_button_creator)
 
 ## Como Contribuir
 
