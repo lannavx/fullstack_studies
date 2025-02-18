@@ -43,7 +43,7 @@ Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo
 10. [Calculadora](https://lannavx.github.io/front_end_studies/projeto_calculadora)
 11. [Button Creator](https://lannavx.github.io/front_end_studies/projeto_button_creator)
 12. [Projeto Forms](https://lannavx.github.io/front_end_studies/projeto_forms)
-13. [Projeto LP Responsiva](https://lannavx.github.io/front_end_studies/projeto_lp-responsiva)
+13. [Projeto LP Responsiva](https://lannavx.github.io/front_end_studies/projeto_lp_responsiva)
 
 ## Como Contribuir
 
