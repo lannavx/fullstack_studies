@@ -25,7 +25,7 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 - `/projeto_calculadora/` - Projeto interativo de calculadora que permite aos usuários realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão, exibindo os resultados em tempo real no display.
 - `/projeto_button_creator/` - Projeto interativo que permite aos usuários criar botões personalizados e que mostra as mudanças no botão em tempo real e exibe o código CSS gerado automaticamente para ser copiado e reutilizado.
 - `/projeto_forms/` - Projeto interativo de formulários desenvolvido com HTML e CSS. Explora a validação de campos e estilização personalizada.
-- `/projeto_lp-responsiva/` - Porojeto criado com HTML e CSS, com a ideia de Mobile First. Construído para estudos avançados de responsividade, explorando técnicas modernas para adaptação a diferentes tamanhos de tela e dispositivos.
+- `/projeto_lp_responsiva/` - Porojeto criado com HTML e CSS, com a ideia de Mobile First. Construído para estudos avançados de responsividade, explorando técnicas modernas para adaptação a diferentes tamanhos de tela e dispositivos.
 
 ## Visualizar Projetos
 
