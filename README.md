@@ -26,6 +26,7 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 - `/projeto_button_creator/` - Projeto interativo que permite aos usuários criar botões personalizados e que mostra as mudanças no botão em tempo real e exibe o código CSS gerado automaticamente para ser copiado e reutilizado.
 - `/projeto_forms/` - Projeto interativo de formulários desenvolvido com HTML e CSS. Explora a validação de campos e estilização personalizada.
 - `/projeto_lp_responsiva/` - Porojeto criado com HTML e CSS, com a ideia de Mobile First. Construído para estudos avançados de responsividade, explorando técnicas modernas para adaptação a diferentes tamanhos de tela e dispositivos.
+- `/projeto_lp_animada/` - Projeto criado com HTML e CSS, focado em animações desenvolvidas exclusivamente com CSS. Explora técnicas modernas de animação para criar uma experiência visual dinâmica e envolvente.
 
 ## Visualizar Projetos
 
@@ -44,6 +45,7 @@ Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo
 11. [Button Creator](https://lannavx.github.io/front_end_studies/projeto_button_creator)
 12. [Projeto Forms](https://lannavx.github.io/front_end_studies/projeto_forms)
 13. [Projeto LP Responsiva](https://lannavx.github.io/front_end_studies/projeto_lp_responsiva)
+14. [Projeto LP Animada](https://lannavx.github.io/front_end_studies/projeto_lp_animada)
 
 ## Como Contribuir
 
