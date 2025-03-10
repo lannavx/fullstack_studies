@@ -3,7 +3,7 @@ section.hero {
   width: 100%;
   padding: 2.5rem;
   margin-inline: auto;
-
+  
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -1,0 +1,145 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../assets/img/book-trace-background.png) no-repeat center/cover;
+  gap: 2.5rem;
+  padding: 6.25rem 2rem 2rem 2rem;
+  margin-top: 7.813rem;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  & img {
+    width: 159px;
+    height: 40px;
+  }
+
+  & span {
+    width: 19.438rem;
+    border-bottom: 1px solid var(--shape-stroke);
+  }
+
+  & .social-links {
+    display: flex;
+    width: 19.438rem;
+    justify-content: space-between;
+
+    & img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.footer-flex {
+  display: flex;
+  gap: 1.5rem;
+
+  & h4 {
+    margin-bottom: 1.25rem;
+  }
+
+  & ul {
+    width: 8.938rem;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+
+    & li {
+      font-size: var(--link);
+      color: var(--blue-light);
+    }
+  }
+}
+
+/* Tablet */
+@media (width >= 600px) {
+  footer {
+    & .brand {
+      & img {
+        width: 264px;
+        height: 67px;
+      }
+    } 
+
+    & .footer-flex {
+
+      & ul {
+        width: 10rem;
+      }
+
+      & li {
+        font-size: var(--body-md);
+      }
+    }
+  }
+}
+
+/* Desktop */
+@media (width >= 1000px) {  
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10.625rem 8.125rem 6.375rem;
+    background: url(../assets/img/book-trace-background.png) no-repeat top/cover;
+
+    & .brand {
+      & img {
+        width: 264px;
+        height: 67px;
+      }
+
+      & .social-links {
+        z-index: 2;
+
+        & a {
+          width: 2.813rem;
+          height: 2.813rem;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          position: relative;
+
+          & img:hover {
+            svg path {
+              fill: var(--text-title);
+            }
+          }
+
+          &:hover::before {
+            scale: 1;
+          }
+          
+          &::before {
+            content: "";
+            width: inherit;
+            height: inherit;
+            border-radius: inherit;
+            background: var(--shape-stroke);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            scale: 0;
+            transition: scale 200ms;
+          }
+        }
+      }
+    } 
+
+    & li:hover {
+      color: var(--text-body);
+    }
+  }
+}
+
+
