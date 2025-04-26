@@ -28,6 +28,7 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 - `/projeto_lp_responsiva/` - Porojeto criado com HTML e CSS, com a ideia de Mobile First. Construído para estudos avançados de responsividade, explorando técnicas modernas para adaptação a diferentes tamanhos de tela e dispositivos.
 - `/projeto_lp_animada/` - Projeto criado com HTML e CSS, focado em animações desenvolvidas exclusivamente com CSS. Explora técnicas modernas de animação para criar uma experiência visual dinâmica e envolvente.
 - `/projeto_clube_assinatura/` - Projeto focado na responsividade e animações CSS. Utiliza animações CSS para criar transições suaves e interações dinâmicas.
+- `/projeto_refund/` - Aplicação interativa de solicitação de reembolso onde usuários cadastram, visualizam e excluem despesas. Desenvolvido com HTML, CSS e JavaScript, utilizando manipulação do DOM e atualização dinâmica.
 
 ## Visualizar Projetos
 
@@ -48,6 +49,7 @@ Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo
 13. [Projeto LP Responsiva](https://lannavx.github.io/front_end_studies/projeto_lp_responsiva)
 14. [Projeto LP Animada](https://lannavx.github.io/front_end_studies/projeto_lp_animada)
 15. [Projeto Clube Assinatura](https://lannavx.github.io/front_end_studies/projeto_clube_assinatura)
+16. [Projeto Refund](https://lannavx.github.io/front_end_studies/projeto_refund)
 
 ## Como Contribuir
 
