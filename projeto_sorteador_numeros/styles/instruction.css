@@ -1,0 +1,42 @@
+#instruction{
+  display: flex;
+  flex-direction: column;
+  margin-top: 38px;
+  gap: 36px;
+
+  & .info {
+    & .info-paragraph {
+      font-size: var(--paragraph-small);
+      padding: 0px 0px 0px 28px;
+    }
+
+    & .title-info {
+      display: flex;
+      gap: 8px;
+
+      & p {
+        font-size: var(--paragraph-medium);
+        color: var(--content-brand);
+      }
+    }
+  }
+}
+
+@media (min-width: 1050px) {
+  #instruction {
+    width: 508px;
+    grid-column: 1;
+
+    & .info {
+      & .info-paragraph {
+        font-size: var(--paragraph-medium);
+      }
+  
+      & .title-info {
+        & p {
+          font-size: var(--paragraph-large);
+        }
+      }
+    }
+  }
+}
