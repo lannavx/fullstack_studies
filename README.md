@@ -29,6 +29,7 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 - `/projeto_lp_animada/` - Projeto criado com HTML e CSS, focado em animações desenvolvidas exclusivamente com CSS. Explora técnicas modernas de animação para criar uma experiência visual dinâmica e envolvente.
 - `/projeto_clube_assinatura/` - Projeto focado na responsividade e animações CSS. Utiliza animações CSS para criar transições suaves e interações dinâmicas.
 - `/projeto_refund/` - Aplicação interativa de solicitação de reembolso onde usuários cadastram, visualizam e excluem despesas. Desenvolvido com HTML, CSS e JavaScript, utilizando manipulação do DOM e atualização dinâmica.
+- `/projeto_sorteador_numeros/` - Projeto interativo que sorteia números aleatórios com animações visuais, desenvolvido com HTML, CSS e JavaScript.
 
 ## Visualizar Projetos
 
@@ -50,6 +51,7 @@ Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo
 14. [Projeto LP Animada](https://lannavx.github.io/front_end_studies/projeto_lp_animada)
 15. [Projeto Clube Assinatura](https://lannavx.github.io/front_end_studies/projeto_clube_assinatura)
 16. [Projeto Refund](https://lannavx.github.io/front_end_studies/projeto_refund)
+17. [Projeto Sorteador de Números](https://lannavx.github.io/front_end_studies/projeto_sorteador_numeros)
 
 ## Como Contribuir
 
