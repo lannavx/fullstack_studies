@@ -1,0 +1,25 @@
+{
+  "name": "mundopet",
+  "description": "Aplicação web de agendamente para serviços de petshop",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
+    "server": "json-server --watch db.json --port 3333"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.13",
+    "json-server": "^1.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^10.0.0",
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
