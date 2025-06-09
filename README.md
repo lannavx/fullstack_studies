@@ -1,15 +1,12 @@
 # 📚 Repositório de Estudos de Full Stack
 
-Este repositório é dedicado a todos os meus estudos na área de **full stack**. Aqui, você encontrará materiais e projetos práticos separados em Front-End e Full Stack. O objetivo é documentar meu aprendizado prático, reforçar os fundamentos e criar um portfólio técnico.
-
+Repositório dedicado a estudos **Full Stack** e projetos desenvolvidos como exercícios e desafios pessoais com base nos cursos que realizei.
 
 ## 🎯 Objetivos
 
 - Documentar meu progresso como desenvolvedora
 - Aplicar o conhecimento teórico em projetos práticos
 - Desenvolver aplicações que demonstrem minhas habilidades em diferentes áreas do desenvolvimento web
-
-## 🧠 Estrutura do Repositório
 
 ### 🖥️ Front-End
 Projetos voltados para interface, layout, responsividade e interatividade com HTML5, CSS3 e JavaScript puro:
@@ -50,16 +47,21 @@ Projetos voltados para interface, layout, responsividade e interatividade com HT
 
 /projeto_sorteador_numeros – Sorteador de números com efeitos visuais animados
 ```
-### 🌐 Full Stack
-Projetos que envolvem tanto o front quanto o back-end, com foco em integração de dados e lógica de negócio:
-```
-/projeto_mundo_pet - Agendamentos de pet shop com integração via JSON Server
 
+### 🛠️ Back-End
+Projetos focados exclusivamente no desenvolvimento da lógica de servidor, rotas, manipulação de dados e persistência usando Node.js:
+```
 /projeto_api_ticket_suporte - API de suporte com CRUD em Node.js puro e banco em JSON
 ```
 
-➤ Clone o projeto, execute npm install e depois npm run dev para rodar localmente
+### 🌐 Full Stack
 
+Projetos que envolvem tanto o front quanto o back-end, com foco em integração de dados e lógica de negócio:
+```
+/projeto_mundo_pet - Agendamentos de pet shop com integração via JSON Server
+```
+
+➤ Para projetos Full Stack e Back-End: Clone o projeto, execute `npm install` e depois `npm run dev` para rodar localmente
 
 ## 🔗 Visualizar Projetos (Front-End)
 
