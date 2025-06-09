@@ -1,0 +1,134 @@
+#service-forms {
+  display: flex;
+  justify-content: center;
+  padding: 28px 20px 39px;
+  
+  #forms {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    background: var(--background-tertiary);
+    
+    & #close-modal-form {
+      display: flex;
+      background: none;
+      border: none;
+      justify-content: end;
+      width: 24px;
+      height: 24px;
+      align-self: flex-end;
+    }
+    
+    & form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 28px;
+
+      & fieldset {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        gap: 4px;
+
+        & .input-wrapper {
+          position: relative;
+
+          & input {
+            width: 100%;
+            padding: 12px 12px 12px 40px
+          }
+
+          & img:nth-child(1) {
+            position: absolute;
+            left: 13px;
+            top: 30%;
+          }
+        }
+
+        & select {
+          width: 100%;
+          padding: 12px 12px 12px 40px;
+          background-image: url(/src/assets/arrow.svg);
+          background-repeat: no-repeat;
+          background-position: 95%;
+          appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+
+          & option {
+            color: var(--background-tertiary);
+          }
+        }
+
+        & input[type="date"] {
+          background-image: url(/src/assets/arrow.svg);
+          background-repeat: no-repeat;
+          background-position: 95%;
+
+          &::-webkit-calendar-picker-indicator {
+            opacity: 0;
+          }
+        }
+
+        &#flex{
+          gap: 16px;
+
+          & .flex-date-time{
+            flex-direction: column;
+            width: 100%;
+            
+            & .hour-unavailable {
+              color: var(--content-secondary);
+            }
+          }
+        }
+      }
+
+      & div {
+        display: flex;
+        justify-content: end;
+
+        & button {
+          display: flex;
+          justify-content: center;
+          margin-top: 12px;
+          width: 123px;
+          height: 48px;
+          padding: 12px;
+          background: var(--content-brand);
+          font-size: var(--label-large);
+          font-weight: var(--fw-bold);
+          line-height: 24px;
+          color: #050505;
+          text-transform: uppercase;
+
+          &:hover {
+            background-color: var(--background-highlights);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #service-forms {   
+    & #forms {
+      width: 480px;
+
+      & #flex{
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+
+        & .flex-date-time{
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+    }  
+  } 
+}  

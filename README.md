@@ -6,30 +6,49 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 ## Objetivos
 
 - Documentar meu progresso em **front-end**.
-- Aplicar o conhecimento teórico em projetos práticos.
-- Desenvolver projetos de portfólio que mostrem habilidades adquiridas.
-- Compartilhar soluções e boas práticas em HTML, CSS e JavaScript.
+- Aplicar o conhecimento teórico em projetos práticos
+- Desenvolver projetos de portfólio que mostrem habilidades adquiridas
 
 ## Estrutura do Repositório
+```
+/estudos – Exercícios e materiais práticos para reforçar fundamentos de front-end
 
-- `/estudos/` - Contém exercícios práticos e materiais de estudo para o desenvolvimento de habilidades em front-end.
-- `/projeto_evento/` - Primeiro projeto, focado em evento, utilizando HTML, CSS e JavaScript.
-- `/projeto_cordel/` - Projeto sobre cordel, explorando elementos gráficos e animações.
-- `/projeto_redes_sociais/` - Projeto focado em redes sociais, desenvolvendo interatividade.
-- `/projeto_login/` - Projeto de página de login simples.
-- `/projeto_flexblog/` - Projeto de blog focado na utilização de Flexbox para criar layouts responsivos e flexíveis.
-- `/projeto_wildbeast/` - Projeto focado na utilização de Grid Layout para criação de um layout interativo
-- `/projeto_tabela_imc/` -  Projeto interativo desenvolvido com HTML, CSS e JavaScript que permite aos usuários calcular e visualizar seu Índice de Massa Corporal (IMC).
-- `/projeto_timer/` - Um projeto interativo de cronômetro desenvolvido com HTML, CSS e JavaScript. Permite ao usuário iniciar, pausar e zerar o cronômetro em uma interface dinâmica e intuitiva.
-- `/projeto_lista_tarefas/` - Projeto interativo de lista de tarefas. Permite ao usuário adicionar, remover e salvar tarefas no navegador utilizando o localStorage, garantindo que as tarefas fiquem disponíveis mesmo após o fechamento do navegador.
-- `/projeto_calculadora/` - Projeto interativo de calculadora que permite aos usuários realizar operações matemáticas básicas, como adição, subtração, multiplicação e divisão, exibindo os resultados em tempo real no display.
-- `/projeto_button_creator/` - Projeto interativo que permite aos usuários criar botões personalizados e que mostra as mudanças no botão em tempo real e exibe o código CSS gerado automaticamente para ser copiado e reutilizado.
-- `/projeto_forms/` - Projeto interativo de formulários desenvolvido com HTML e CSS. Explora a validação de campos e estilização personalizada.
-- `/projeto_lp_responsiva/` - Porojeto criado com HTML e CSS, com a ideia de Mobile First. Construído para estudos avançados de responsividade, explorando técnicas modernas para adaptação a diferentes tamanhos de tela e dispositivos.
-- `/projeto_lp_animada/` - Projeto criado com HTML e CSS, focado em animações desenvolvidas exclusivamente com CSS. Explora técnicas modernas de animação para criar uma experiência visual dinâmica e envolvente.
-- `/projeto_clube_assinatura/` - Projeto focado na responsividade e animações CSS. Utiliza animações CSS para criar transições suaves e interações dinâmicas.
-- `/projeto_refund/` - Aplicação interativa de solicitação de reembolso onde usuários cadastram, visualizam e excluem despesas. Desenvolvido com HTML, CSS e JavaScript, utilizando manipulação do DOM e atualização dinâmica.
+/projeto_evento – Primeira landing page focada em apresentação de evento
 
+/projeto_cordel – Página temática de cordel com foco visual e animações
+
+/projeto_redes_sociais – Interface de rede social com elementos interativos
+
+/projeto_login – Tela de login simples e direta
+
+/projeto_flexblog – Blog com layout responsivo utilizando Flexbox
+
+/projeto_wildbeast – Site experimental com layout em Grid e navegação fluida
+
+/projeto_tabela_imc – Calculadora de IMC com exibição dinâmica dos resultados
+
+/projeto_timer – Cronômetro com funções de iniciar, pausar e resetar
+
+/projeto_lista_tarefas – Lista de tarefas com persistência no localStorage
+
+/projeto_calculadora – Calculadora básica com exibição em tempo real
+
+/projeto_button_creator – Ferramenta para criar botões customizados e copiar o CSS gerado
+
+/projeto_forms – Estudo de formulários com validações e personalizações
+
+/projeto_lp_responsiva – Landing page com abordagem mobile first e design adaptativo
+
+/projeto_lp_animada – Página com animações feitas exclusivamente em CSS
+
+/projeto_clube_assinatura – Layout de clube de assinaturas com transições suaves
+
+/projeto_refund – Simulador de reembolsos com cadastro e listagem de despesas
+
+/projeto_sorteador_numeros – Sorteador de números com efeitos visuais animados
+
+/projeto_mundo_pet - Agendamentos de pet shop com integração via JSON Server
+```
 ## Visualizar Projetos
 
 Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo:
@@ -50,7 +69,5 @@ Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo
 14. [Projeto LP Animada](https://lannavx.github.io/front_end_studies/projeto_lp_animada)
 15. [Projeto Clube Assinatura](https://lannavx.github.io/front_end_studies/projeto_clube_assinatura)
 16. [Projeto Refund](https://lannavx.github.io/front_end_studies/projeto_refund)
-
-## Como Contribuir
-
-Sinta-se à vontade para explorar, sugerir melhorias e deixar feedbacks. A colaboração é sempre bem-vinda!
+17. [Projeto Sorteador de Números](https://lannavx.github.io/front_end_studies/projeto_sorteador_numeros)
+18. [Projeto Mundo Pet](https://github.com/lannavx/front_end_studies/tree/front-end/projeto_mundo_pet) - Clone e faça o npm install e npm run dev para rodar o projeto
