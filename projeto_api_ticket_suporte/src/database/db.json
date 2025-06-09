@@ -1,0 +1,24 @@
+{
+  "tickets": [
+    {
+      "id": "d4776263-b4b3-4530-871d-e26ef3d38d35",
+      "equipment": "Computador",
+      "description": "Computador não liga",
+      "user_name": "Laura Caixão",
+      "status": "closed",
+      "created_at": "2025-06-08T12:21:07.369Z",
+      "updated_at": "2025-06-08T12:21:07.369Z",
+      "solution": "Equipamento trocado"
+    },
+    {
+      "id": "9a53a48c-1f2d-4899-a5fd-8a0d24412055",
+      "equipment": "Computador",
+      "description": "Computador não liga",
+      "user_name": "Mirian",
+      "status": "closed",
+      "created_at": "2025-06-09T15:41:43.688Z",
+      "updated_at": "2025-06-09T15:41:43.688Z",
+      "solution": "Computador formatado"
+    }
+  ]
+}
