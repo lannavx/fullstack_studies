@@ -55,7 +55,7 @@ Projetos que envolvem tanto o front quanto o back-end, com foco em integração 
 ```
 /projeto_mundo_pet - Agendamentos de pet shop com integração via JSON Server
 
-/projeto_api_ticket_suporte - API de suporte com CRUD de tickets usando Node.js puro e persistência em arquivo JSON
+/projeto_api_ticket_suporte - API de suporte com CRUD em Node.js puro e banco em JSON
 ```
 
 ➤ Clone o projeto, execute npm install e depois npm run dev para rodar localmente
