@@ -61,7 +61,7 @@ Projetos que envolvem tanto o front quanto o back-end, com foco em integração 
 /projeto_mundo_pet - Agendamentos de pet shop com integração via JSON Server
 ```
 
-➤ Para projetos Full Stack e Back-End: Clone o projeto, execute `npm install` e depois `npm run dev` para rodar localmente
+➤ Para projetos Full Stack e Back-End: Clone o projeto, execute `npm install`, abra em um terminal o `npm run server` e em outro `npm run dev` para rodar localmente
 
 ## 🔗 Visualizar Projetos (Front-End)
 
