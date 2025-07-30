@@ -1,15 +1,15 @@
-# 📚 Repositório de Estudos de Front-End
+# 📚 Repositório de Estudos de Full Stack
 
-Este repositório é dedicado a todos os meus estudos na área de **front-end**. Aqui, você encontrará materiais e projetos práticos sobre **HTML5**, **CSS3** e **JavaScript**, com o objetivo de documentar meu aprendizado e compartilhar o progresso ao longo do tempo.
+Repositório dedicado a estudos **Full Stack** e projetos desenvolvidos como exercícios e desafios pessoais com base nos cursos que realizei.
 
+## 🎯 Objetivos
 
-## Objetivos
-
-- Documentar meu progresso em **front-end**.
+- Documentar meu progresso como desenvolvedora
 - Aplicar o conhecimento teórico em projetos práticos
-- Desenvolver projetos de portfólio que mostrem habilidades adquiridas
+- Desenvolver aplicações que demonstrem minhas habilidades em diferentes áreas do desenvolvimento web
 
-## Estrutura do Repositório
+### 🖥️ Front-End
+Projetos voltados para interface, layout, responsividade e interatividade com HTML5, CSS3 e JavaScript puro:
 ```
 /estudos – Exercícios e materiais práticos para reforçar fundamentos de front-end
 
@@ -46,28 +46,41 @@ Este repositório é dedicado a todos os meus estudos na área de **front-end**.
 /projeto_refund – Simulador de reembolsos com cadastro e listagem de despesas
 
 /projeto_sorteador_numeros – Sorteador de números com efeitos visuais animados
+```
 
+### 🛠️ Back-End
+Projetos focados exclusivamente no desenvolvimento da lógica de servidor, rotas, manipulação de dados e persistência usando Node.js:
+```
+/projeto_api_ticket_suporte - API de suporte com CRUD em Node.js puro e banco em JSON
+```
+
+### 🌐 Full Stack
+
+Projetos que envolvem tanto o front quanto o back-end, com foco em integração de dados e lógica de negócio:
+```
 /projeto_mundo_pet - Agendamentos de pet shop com integração via JSON Server
 ```
-## Visualizar Projetos
+
+➤ Para projetos Full Stack e Back-End: Clone o projeto, execute `npm install`, abra em um terminal o `npm run server` e em outro `npm run dev` para rodar localmente
+
+## 🔗 Visualizar Projetos (Front-End)
 
 Você pode visualizar os projetos diretamente no GitHub Pages pelos links abaixo:
 
-1. [Projeto Evento](https://lannavx.github.io/front_end_studies/projeto_evento)
-2. [Projeto Cordel](https://lannavx.github.io/front_end_studies/projeto_cordel)
-3. [Projeto Redes Sociais](https://lannavx.github.io/front_end_studies/projeto_redes_sociais)
-4. [Projeto Login](https://lannavx.github.io/front_end_studies/projeto_login)
-5. [Projeto Flexblog](https://lannavx.github.io/front_end_studies/projeto_flexblog)
-6. [Projeto Wildbeast](https://lannavx.github.io/front_end_studies/projeto_wildbeast)
-7. [Projeto IMC](https://lannavx.github.io/front_end_studies/projeto_tabela_imc)
-8. [Projeto Timer](https://lannavx.github.io/front_end_studies/projeto_timer)
-9. [Lista de Tarefas](https://lannavx.github.io/front_end_studies/projeto_lista_tarefas)
-10. [Calculadora](https://lannavx.github.io/front_end_studies/projeto_calculadora)
-11. [Button Creator](https://lannavx.github.io/front_end_studies/projeto_button_creator)
-12. [Projeto Forms](https://lannavx.github.io/front_end_studies/projeto_forms)
-13. [Projeto LP Responsiva](https://lannavx.github.io/front_end_studies/projeto_lp_responsiva)
-14. [Projeto LP Animada](https://lannavx.github.io/front_end_studies/projeto_lp_animada)
-15. [Projeto Clube Assinatura](https://lannavx.github.io/front_end_studies/projeto_clube_assinatura)
-16. [Projeto Refund](https://lannavx.github.io/front_end_studies/projeto_refund)
-17. [Projeto Sorteador de Números](https://lannavx.github.io/front_end_studies/projeto_sorteador_numeros)
-18. [Projeto Mundo Pet](https://github.com/lannavx/front_end_studies/tree/front-end/projeto_mundo_pet) - Clone e faça o npm install e npm run dev para rodar o projeto
+1. [Projeto Evento](https://lannavx.github.io/fullstack_studies/projeto_evento)
+2. [Projeto Cordel](https://lannavx.github.io/fullstack_studies/projeto_cordel)
+3. [Projeto Redes Sociais](https://lannavx.github.io/fullstack_studies/projeto_redes_sociais)
+4. [Projeto Login](https://lannavx.github.io/fullstack_studies/projeto_login)
+5. [Projeto Flexblog](https://lannavx.github.io/fullstack_studies/projeto_flexblog)
+6. [Projeto Wildbeast](https://lannavx.github.io/fullstack_studies/projeto_wildbeast)
+7. [Projeto IMC](https://lannavx.github.io/fullstack_studies/projeto_tabela_imc)
+8. [Projeto Timer](https://lannavx.github.io/fullstack_studies/projeto_timer)
+9. [Lista de Tarefas](https://lannavx.github.io/fullstack_studies/projeto_lista_tarefas)
+10. [Calculadora](https://lannavx.github.io/fullstack_studies/projeto_calculadora)
+11. [Button Creator](https://lannavx.github.io/fullstack_studies/projeto_button_creator)
+12. [Projeto Forms](https://lannavx.github.io/fullstack_studies/projeto_forms)
+13. [Projeto LP Responsiva](https://lannavx.github.io/fullstack_studies/projeto_lp_responsiva)
+14. [Projeto LP Animada](https://lannavx.github.io/fullstack_studies/projeto_lp_animada)
+15. [Projeto Clube Assinatura](https://lannavx.github.io/fullstack_studies/projeto_clube_assinatura)
+16. [Projeto Refund](https://lannavx.github.io/fullstack_studies/projeto_refund)
+17. [Projeto Sorteador de Números](https://lannavx.github.io/fullstack_studies/projeto_sorteador_numeros)
