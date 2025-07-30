@@ -5,7 +5,7 @@
 <br>
 <br>
 
-# 🎟️ API de Tickets de Suporte
+# 🎟️ API de Tickets para Chamados
 
 API RESTful desenvolvida com Node.js para gerenciamento de chamados de suporte técnico. Este projeto faz parte de uma jornada de aprendizado, onde foram aplicados conceitos de rotas dinâmicas, controllers, middlewares e persistência de dados local com JSON
 
