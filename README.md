@@ -46,6 +46,8 @@ Projetos voltados para interface, layout, responsividade e interatividade com HT
 /projeto_refund – Simulador de reembolsos com cadastro e listagem de despesas
 
 /projeto_sorteador_numeros – Sorteador de números com efeitos visuais animados
+
+/projeto_adivinhe – Jogo de adivinhação de palavras desenvolvido em React (Vite)
 ```
 
 ### 🛠️ Back-End
@@ -61,7 +63,11 @@ Projetos que envolvem tanto o front quanto o back-end, com foco em integração 
 /projeto_mundo_pet - Agendamentos de pet shop com integração via JSON Server
 ```
 
-➤ Para projetos Full Stack e Back-End: Clone o projeto, execute `npm install`, abra em um terminal o `npm run server` e em outro `npm run dev` para rodar localmente
+<br>
+
+➤ Para projetos que necessitam de execução local: clone o projeto, execute `npm install` e utilize os scripts indicados no README de cada projeto, como `npm run server` e/ou `npm run dev`, em terminais separados, para rodar localmente
+
+<br>
 
 ## 🔗 Visualizar Projetos (Front-End)
 
